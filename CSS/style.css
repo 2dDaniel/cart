@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  max-width: 800px;
+}
+.container {
+  min-height: 100vh;
+  background-color: antiquewhite;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.perfum-card {
+  background-color: #fff;
+  text-align: center;
+  width: 375px;
+  margin: auto;
+}
+.column {
+  margin: 0 auto;
+  text-align: left;
+  padding: 5px 20px;
+}
+/*image*/
+
+img {
+  width: 375px;
+}
+/*heading sectiom*/
+h1 {
+  font-weight: bolder;
+}
+m h3 {
+  color: gray;
+  letter-spacing: 5px;
+  padding: 20px 0;
+  font-size: 14px;
+}
+p {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 1px;
+  padding-right: 40px;
+  color: gray;
+}
+footer {
+  font-size: 50px;
+  font-family: serif, Tahoma, sans-serif;
+  font-weight: bolder;
+  color: hsl(158, 36%, 37%);
+}
+span {
+  font-size: 15px;
+  color: gray;
+}
+.btn-change {
+  background: hsl(158, 36%, 37%);
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+@media screen and (min-width: 375px) {
+  body {
+    background-color: #fff;
+    max-height: 200vh;
+  }
+}
